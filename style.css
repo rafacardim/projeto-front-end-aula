@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 84px;
+    background-color:#8500EE;
+    border-bottom: 32px;
+    border-top: 28px;
+    border-left: 48px;
+}
+
+.logo{
+    width: 49px;
+    height: 24px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 28px;
+    left: 48px;
+}
+
+.menu {
+    width: 202px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    position: absolute;
+    padding-top: 33px;
+    right: 56px;
+    display: flex;
+    justify-content:space-between
+}
+
+.menu > a {
+    display: inline-block;
+    width: fit-content;
+}
+
+.corpo {
+    width: 100%;
+    height: 572px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.corpo > div {
+    width: 360px;
+    height: 465px;
+    border: 1px solid black; 
+    border-radius: 8px;
+    }
+
+.div-imagem {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div-imagem > img {
+    width: 90%;
+    height: 150px;
+    padding: 15px;
+}
+h1 {
+    width: 274px;
+    padding-left: 34px;
+    padding-top: 15px;
+    padding-bottom: 9px;
+    color:#5b067f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-break: auto;
+    }
+
+p {
+    padding-left: 34px;
+    padding-right: 15px;
+    padding-bottom: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-break: auto;
+}
+
+
+.rodape{
+    background-color: #8500EE;
+    position: absolute;
+    top: 657px;
+
+    /* padding-top: 657px; */
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.rodape > div {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    width: fit-content;
+}    
+
+
+
